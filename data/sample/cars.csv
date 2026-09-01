@@ -1,0 +1,11 @@
+car_name,model,origin,mpg,cylinders,displacement,horsepower,weight,acceleration
+chevrolet chevelle malibu,70,1,18.0,8,307.0,130.0,3504.0,12.0
+buick skylark 320,70,1,15.0,8,350.0,165.0,3693.0,11.5
+plymouth satellite,70,1,18.0,8,318.0,150.0,3436.0,11.0
+amc rebel sst,70,1,16.0,8,304.0,150.0,3433.0,12.0
+citroen ds-21 pallas,72,2,23.0,4,133.0,115.0,3090.0,17.5
+volkswagen 1131 deluxe sedan,70,2,26.0,4,97.0,46.0,1835.0,20.5
+peugeot 504,70,2,25.0,4,110.0,87.0,2672.0,17.5
+toyota corona mark ii,70,3,24.0,4,113.0,95.0,2372.0,15.0
+datsun pl510,71,3,27.0,4,97.0,88.0,2130.0,14.5
+toyota corolla 1200,71,3,31.0,4,71.0,65.0,1773.0,19.0
