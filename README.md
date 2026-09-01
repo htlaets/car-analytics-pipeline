@@ -29,6 +29,29 @@ flowchart LR
     AIRFLOW -. orchestration .-> DB
 ```
 
+## Результат работы
+
+На учебном стенде пайплайн обработал 398 записей и последовательно выполнил 9 задач: подготовку HDFS, создание таблиц, запуск Spark job, формирование витрин, загрузку в Greenplum и итоговую проверку.
+
+### Оркестрация в Airflow
+
+![Граф зависимостей Airflow DAG](docs/images/airflow-dag.png)
+
+Все этапы завершились со статусом `Success`.
+
+<details>
+<summary>Показать результаты выполнения задач</summary>
+
+![Успешное выполнение задач Airflow](docs/images/airflow-success.png)
+
+</details>
+
+### Дашборд в Apache Superset
+
+![Итоговый дашборд Apache Superset](docs/images/superset-dashboard.png)
+
+Дашборд содержит KPI общего количества автомобилей, сравнение топливной экономичности по годам и регионам, анализ по числу цилиндров и топ-10 автомобилей по отношению мощности к массе.
+
 ## Стек
 
 `Python` `PySpark` `Apache Airflow` `PostgreSQL` `Greenplum` `HDFS` `Docker` `Apache Superset` `pytest` `GitHub Actions`
